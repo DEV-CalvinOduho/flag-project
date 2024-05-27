@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Flag Project</title>
+  <style>
+    /* Write your CSS Code here */
+    .flag {
+      width: 900px;
+      height: 600px;
+      background-color: #CE1126;
+      border: 10px solid gold;
+      position: relative;
+    }
+
+    .flag > div {
+      width: 100%;
+      height: 300px;
+      background-color: #002868;
+      position: absolute;
+      top: 150px;
+    }
+
+    .flag > div > div {
+      height:200px;
+      width: 200px;
+      position: absolute;
+      background-color: white;
+      border-radius: 50%;
+      left: 350px;
+      top: 50px;
+    }
+
+    .flag p {
+      text-align: center;
+      color: white;
+      font-size: 5rem;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .flag > div div p {
+      color: rgba(61, 10, 3, 0.897);
+    }
+
+    
+
+
+   /* Kenya */
+   .black {
+     background-color: black;
+     width: 900px;
+     height: 470px;
+     position: relative;
+     border: 10px solid gold;
+     
+   }
+
+   .white1 {
+     background-color: white;
+     width: 100%;
+     height: 10px;
+     position: absolute;
+     top: 150px;
+   }
+
+   .red {
+     background-color: red;
+     width: 100%;
+     height: 150px;
+     position: absolute;
+     top: 10px;
+   }
+
+   .white2 {
+     background-color: white;
+     width: 100%;
+     height: 10px;
+     position: absolute;
+     top: 150px;
+   }
+
+   .green {
+    background-color: green;
+     width: 100%;
+     height: 150px;
+     position: absolute;
+     top: 10px;
+   }
+
+   p {
+     color: orange;
+     font-size: 3.5rem;
+     text-align: center;
+     font-family: Georgia, serif;
+     font-weight: 900;
+     font-style: italic;
+   }
+
+   .red p {
+     color: black;
+   }
+
+   .green p {
+     color: silver;
+   }
+
+
+
+    
+
+    
+    
+  </style>
+</head>
+
+<!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+<body>
+  <br />
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+
+<br />
+<hr />
+<br />
+
+<div class="black">
+  <p>The Flag</p>
+  <div class="white1">
+    <div class="red">
+      <p>of</p>
+      <div class="white2">
+        <div class="green">
+          <p>Kenya</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br />
+
+</body>
+
+</html>
+
